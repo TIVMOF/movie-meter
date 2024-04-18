@@ -1,0 +1,340 @@
+{
+  "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Resources/deployments/Microsoft.Web-FunctionApp-Portal-f4031af8-9e2e",
+  "name": "Microsoft.Web-FunctionApp-Portal-f4031af8-9e2e",
+  "type": "Microsoft.Resources/deployments",
+  "tags": {
+    "primaryResourceId": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourcegroups/TIVMOF-movie/providers/Microsoft.Web/sites/movie-meter",
+    "marketplaceItemId": "Microsoft.FunctionApp",
+    "provisioningHash": "customize-post-provisioning-steps-functionapp-deployment"
+  },
+  "properties": {
+    "templateHash": "834215914573932710",
+    "parameters": {
+      "subscriptionId": {
+        "type": "String",
+        "value": "bd40f7c3-dcf4-4b89-962f-af1a4576f9c0"
+      },
+      "name": {
+        "type": "String",
+        "value": "movie-meter"
+      },
+      "location": {
+        "type": "String",
+        "value": "East US"
+      },
+      "use32BitWorkerProcess": {
+        "type": "Bool",
+        "value": true
+      },
+      "ftpsState": {
+        "type": "String",
+        "value": "FtpsOnly"
+      },
+      "storageAccountName": {
+        "type": "String",
+        "value": "tivmofmovieafa5"
+      },
+      "netFrameworkVersion": {
+        "type": "String",
+        "value": "v6.0"
+      },
+      "sku": {
+        "type": "String",
+        "value": "Dynamic"
+      },
+      "skuCode": {
+        "type": "String",
+        "value": "Y1"
+      },
+      "workerSize": {
+        "type": "String",
+        "value": "0"
+      },
+      "workerSizeId": {
+        "type": "String",
+        "value": "0"
+      },
+      "numberOfWorkers": {
+        "type": "String",
+        "value": "1"
+      },
+      "repoUrl": {
+        "type": "String",
+        "value": "https://github.com/TIVMOF/movie-meter"
+      },
+      "branch": {
+        "type": "String",
+        "value": "main"
+      },
+      "oidcUserIdentityName": {
+        "type": "String",
+        "value": "movie-meter-id-8404"
+      },
+      "hostingPlanName": {
+        "type": "String",
+        "value": "ASP-TIVMOFmovie-8d5c"
+      },
+      "serverFarmResourceGroup": {
+        "type": "String",
+        "value": "TIVMOF-movie"
+      },
+      "alwaysOn": {
+        "type": "Bool",
+        "value": false
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2024-04-18T20:07:02.3596836Z",
+    "duration": "PT1M57.6334606S",
+    "correlationId": "e4b8257c-87e5-4985-b761-90996d1ae380",
+    "providers": [
+      {
+        "namespace": "Microsoft.Web",
+        "resourceTypes": [
+          {
+            "resourceType": "sites",
+            "locations": [
+              "eastus"
+            ]
+          },
+          {
+            "resourceType": "sites/basicPublishingCredentialsPolicies",
+            "locations": [
+              null
+            ]
+          },
+          {
+            "resourceType": "sites/sourcecontrols",
+            "locations": [
+              null
+            ]
+          },
+          {
+            "resourceType": "serverfarms",
+            "locations": [
+              "eastus"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.ManagedIdentity",
+        "resourceTypes": [
+          {
+            "resourceType": "userAssignedIdentities",
+            "locations": [
+              "eastus"
+            ]
+          },
+          {
+            "resourceType": "userAssignedIdentities/federatedIdentityCredentials",
+            "locations": [
+              null
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.Authorization",
+        "resourceTypes": [
+          {
+            "resourceType": "roleAssignments",
+            "locations": [
+              null
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "microsoft.insights",
+        "resourceTypes": [
+          {
+            "resourceType": "components",
+            "locations": [
+              "eastus"
+            ]
+          }
+        ]
+      },
+      {
+        "namespace": "Microsoft.Storage",
+        "resourceTypes": [
+          {
+            "resourceType": "storageAccounts",
+            "locations": [
+              "eastus"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/microsoft.insights/components/movie-meter",
+            "resourceType": "microsoft.insights/components",
+            "resourceName": "movie-meter"
+          },
+          {
+            "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Web/serverfarms/ASP-TIVMOFmovie-8d5c",
+            "resourceType": "Microsoft.Web/serverfarms",
+            "resourceName": "ASP-TIVMOFmovie-8d5c"
+          },
+          {
+            "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Storage/storageAccounts/tivmofmovieafa5",
+            "resourceType": "Microsoft.Storage/storageAccounts",
+            "resourceName": "tivmofmovieafa5"
+          },
+          {
+            "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/microsoft.insights/components/movie-meter",
+            "resourceType": "microsoft.insights/components",
+            "resourceName": "movie-meter",
+            "apiVersion": "2015-05-01"
+          },
+          {
+            "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Storage/storageAccounts/tivmofmovieafa5",
+            "resourceType": "Microsoft.Storage/storageAccounts",
+            "resourceName": "tivmofmovieafa5",
+            "actionName": "listKeys",
+            "apiVersion": "2019-06-01"
+          }
+        ],
+        "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Web/sites/movie-meter",
+        "resourceType": "Microsoft.Web/sites",
+        "resourceName": "movie-meter"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Web/Sites/movie-meter",
+            "resourceType": "Microsoft.Web/Sites",
+            "resourceName": "movie-meter"
+          }
+        ],
+        "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Web/sites/movie-meter/basicPublishingCredentialsPolicies/scm",
+        "resourceType": "Microsoft.Web/sites/basicPublishingCredentialsPolicies",
+        "resourceName": "movie-meter/scm"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Web/Sites/movie-meter",
+            "resourceType": "Microsoft.Web/Sites",
+            "resourceName": "movie-meter"
+          }
+        ],
+        "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Web/sites/movie-meter/basicPublishingCredentialsPolicies/ftp",
+        "resourceType": "Microsoft.Web/sites/basicPublishingCredentialsPolicies",
+        "resourceName": "movie-meter/ftp"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Web/Sites/movie-meter",
+            "resourceType": "Microsoft.Web/Sites",
+            "resourceName": "movie-meter"
+          },
+          {
+            "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.ManagedIdentity/userAssignedIdentities/movie-meter-id-8404",
+            "resourceType": "Microsoft.ManagedIdentity/userAssignedIdentities",
+            "resourceName": "movie-meter-id-8404"
+          },
+          {
+            "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.ManagedIdentity/userAssignedIdentities/movie-meter-id-8404",
+            "resourceType": "Microsoft.ManagedIdentity/userAssignedIdentities",
+            "resourceName": "movie-meter-id-8404",
+            "apiVersion": "2018-11-30"
+          }
+        ],
+        "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Web/sites/movie-meter/sourcecontrols/web",
+        "resourceType": "Microsoft.Web/sites/sourcecontrols",
+        "resourceName": "movie-meter/web"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Web/Sites/movie-meter",
+            "resourceType": "Microsoft.Web/Sites",
+            "resourceName": "movie-meter"
+          }
+        ],
+        "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.ManagedIdentity/userAssignedIdentities/movie-meter-id-8404",
+        "resourceType": "Microsoft.ManagedIdentity/userAssignedIdentities",
+        "resourceName": "movie-meter-id-8404"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.ManagedIdentity/userAssignedIdentities/movie-meter-id-8404",
+            "resourceType": "Microsoft.ManagedIdentity/userAssignedIdentities",
+            "resourceName": "movie-meter-id-8404"
+          }
+        ],
+        "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.ManagedIdentity/userAssignedIdentities/movie-meter-id-8404/federatedIdentityCredentials/6rffmhu4aqxr4",
+        "resourceType": "Microsoft.ManagedIdentity/userAssignedIdentities/federatedIdentityCredentials",
+        "resourceName": "movie-meter-id-8404/6rffmhu4aqxr4"
+      },
+      {
+        "dependsOn": [
+          {
+            "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Web/Sites/movie-meter",
+            "resourceType": "Microsoft.Web/Sites",
+            "resourceName": "movie-meter"
+          },
+          {
+            "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.ManagedIdentity/userAssignedIdentities/movie-meter-id-8404",
+            "resourceType": "Microsoft.ManagedIdentity/userAssignedIdentities",
+            "resourceName": "movie-meter-id-8404"
+          },
+          {
+            "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.ManagedIdentity/userAssignedIdentities/movie-meter-id-8404",
+            "resourceType": "Microsoft.ManagedIdentity/userAssignedIdentities",
+            "resourceName": "movie-meter-id-8404",
+            "apiVersion": "2018-11-30"
+          }
+        ],
+        "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.web/sites/movie-meter/providers/Microsoft.Authorization/roleAssignments/f1b73186-8540-5d60-a52a-a8aff36feb46",
+        "resourceType": "Microsoft.Authorization/roleAssignments",
+        "resourceName": "f1b73186-8540-5d60-a52a-a8aff36feb46"
+      }
+    ],
+    "outputResources": [
+      {
+        "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/microsoft.insights/components/movie-meter"
+      },
+      {
+        "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.ManagedIdentity/userAssignedIdentities/movie-meter-id-8404"
+      },
+      {
+        "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.ManagedIdentity/userAssignedIdentities/movie-meter-id-8404/federatedIdentityCredentials/6rffmhu4aqxr4"
+      },
+      {
+        "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Storage/storageAccounts/tivmofmovieafa5"
+      },
+      {
+        "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Web/serverfarms/ASP-TIVMOFmovie-8d5c"
+      },
+      {
+        "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Web/sites/movie-meter"
+      },
+      {
+        "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Web/sites/movie-meter/basicPublishingCredentialsPolicies/ftp"
+      },
+      {
+        "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Web/sites/movie-meter/basicPublishingCredentialsPolicies/scm"
+      },
+      {
+        "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.web/sites/movie-meter/providers/Microsoft.Authorization/roleAssignments/f1b73186-8540-5d60-a52a-a8aff36feb46"
+      },
+      {
+        "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Web/sites/movie-meter/sourcecontrols/web"
+      }
+    ],
+    "validationLevel": "Template"
+  }
+}

@@ -1,0 +1,239 @@
+[
+  {
+    "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Resources/deployments/Microsoft.Web-FunctionApp-Portal-f4031af8-9e2e/operations/98262B113576CD68",
+    "operationId": "98262B113576CD68",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-04-18T20:06:31.9362831Z",
+      "duration": "PT15.0527213S",
+      "trackingId": "9cec78ad-4d79-46f7-8788-ba361c8ed3db",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Web/sites/movie-meter/sourcecontrols/web",
+        "resourceType": "Microsoft.Web/sites/sourcecontrols",
+        "resourceName": "movie-meter/web"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Resources/deployments/Microsoft.Web-FunctionApp-Portal-f4031af8-9e2e/operations/3E5F5D8FCDCC55E8",
+    "operationId": "3E5F5D8FCDCC55E8",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-04-18T20:07:01.9835788Z",
+      "duration": "PT48.2535845S",
+      "trackingId": "22dc34a0-0cb7-4a44-a30a-21db60df142c",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.ManagedIdentity/userAssignedIdentities/movie-meter-id-8404/federatedIdentityCredentials/6rffmhu4aqxr4",
+        "resourceType": "Microsoft.ManagedIdentity/userAssignedIdentities/federatedIdentityCredentials",
+        "resourceName": "movie-meter-id-8404/6rffmhu4aqxr4"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Resources/deployments/Microsoft.Web-FunctionApp-Portal-f4031af8-9e2e/operations/7C87E9D4A3CC3A8E",
+    "operationId": "7C87E9D4A3CC3A8E",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-04-18T20:06:19.693509Z",
+      "duration": "PT3.0207395S",
+      "trackingId": "0fbd1fef-a6f9-44d5-b1bc-043c86947cfb",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.web/sites/movie-meter/providers/Microsoft.Authorization/roleAssignments/f1b73186-8540-5d60-a52a-a8aff36feb46",
+        "resourceType": "Microsoft.Authorization/roleAssignments",
+        "resourceName": "f1b73186-8540-5d60-a52a-a8aff36feb46"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Resources/deployments/Microsoft.Web-FunctionApp-Portal-f4031af8-9e2e/operations/6492D3219EE39B77",
+    "operationId": "6492D3219EE39B77",
+    "properties": {
+      "provisioningOperation": "Read",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-04-18T20:06:16.8478704Z",
+      "duration": "PT0.1751009S",
+      "trackingId": "334c7b60-b300-49f8-bcd8-2bf51652fca3",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.ManagedIdentity/userAssignedIdentities/movie-meter-id-8404",
+        "resourceType": "Microsoft.ManagedIdentity/userAssignedIdentities",
+        "resourceName": "movie-meter-id-8404",
+        "apiVersion": "2018-11-30"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Resources/deployments/Microsoft.Web-FunctionApp-Portal-f4031af8-9e2e/operations/08010BB2E13AB731",
+    "operationId": "08010BB2E13AB731",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-04-18T20:06:16.5152416Z",
+      "duration": "PT2.7852473S",
+      "trackingId": "05ae7e2c-2bc5-400a-80e2-a12914e8ed34",
+      "statusCode": "Created",
+      "targetResource": {
+        "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.ManagedIdentity/userAssignedIdentities/movie-meter-id-8404",
+        "resourceType": "Microsoft.ManagedIdentity/userAssignedIdentities",
+        "resourceName": "movie-meter-id-8404"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Resources/deployments/Microsoft.Web-FunctionApp-Portal-f4031af8-9e2e/operations/FF3D0BBAB9781860",
+    "operationId": "FF3D0BBAB9781860",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-04-18T20:06:14.7801172Z",
+      "duration": "PT1.0501229S",
+      "trackingId": "3da83ab2-9642-4284-a0cf-bde4d07d4b96",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Web/sites/movie-meter/basicPublishingCredentialsPolicies/scm",
+        "resourceType": "Microsoft.Web/sites/basicPublishingCredentialsPolicies",
+        "resourceName": "movie-meter/scm"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Resources/deployments/Microsoft.Web-FunctionApp-Portal-f4031af8-9e2e/operations/648C3A484DC11862",
+    "operationId": "648C3A484DC11862",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-04-18T20:06:14.4161814Z",
+      "duration": "PT0.6861871S",
+      "trackingId": "f9c94b2f-a651-4100-b9da-14b7b1d50004",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Web/sites/movie-meter/basicPublishingCredentialsPolicies/ftp",
+        "resourceType": "Microsoft.Web/sites/basicPublishingCredentialsPolicies",
+        "resourceName": "movie-meter/ftp"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Resources/deployments/Microsoft.Web-FunctionApp-Portal-f4031af8-9e2e/operations/9B4285E88B407DC5",
+    "operationId": "9B4285E88B407DC5",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-04-18T20:06:13.6828735Z",
+      "duration": "PT28.8800589S",
+      "trackingId": "38479522-7add-45b2-9bc5-e1f95630fa05",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Web/sites/movie-meter",
+        "resourceType": "Microsoft.Web/sites",
+        "resourceName": "movie-meter"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Resources/deployments/Microsoft.Web-FunctionApp-Portal-f4031af8-9e2e/operations/F9325DE12B9D4611",
+    "operationId": "F9325DE12B9D4611",
+    "properties": {
+      "provisioningOperation": "Action",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-04-18T20:05:44.7575038Z",
+      "duration": "PT39.5153856S",
+      "trackingId": "f423426b-71c0-47d6-b0e8-f8e36630138d",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Storage/storageAccounts/tivmofmovieafa5",
+        "resourceType": "Microsoft.Storage/storageAccounts",
+        "resourceName": "tivmofmovieafa5",
+        "actionName": "listKeys",
+        "apiVersion": "2019-06-01"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Resources/deployments/Microsoft.Web-FunctionApp-Portal-f4031af8-9e2e/operations/F12ED93F16AF326C",
+    "operationId": "F12ED93F16AF326C",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-04-18T20:05:44.5510915Z",
+      "duration": "PT39.3089733S",
+      "trackingId": "baa392fb-aff1-43c9-a5a2-2133d3288de1",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Storage/storageAccounts/tivmofmovieafa5",
+        "resourceType": "Microsoft.Storage/storageAccounts",
+        "resourceName": "tivmofmovieafa5"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Resources/deployments/Microsoft.Web-FunctionApp-Portal-f4031af8-9e2e/operations/27DCCE6575D84841",
+    "operationId": "27DCCE6575D84841",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-04-18T20:05:16.2125026Z",
+      "duration": "PT10.9703844S",
+      "trackingId": "d2d0fb62-3f71-4dee-ae23-a9b334c3c8de",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Web/serverfarms/ASP-TIVMOFmovie-8d5c",
+        "resourceType": "Microsoft.Web/serverfarms",
+        "resourceName": "ASP-TIVMOFmovie-8d5c"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Resources/deployments/Microsoft.Web-FunctionApp-Portal-f4031af8-9e2e/operations/8F1E05D58DFE46F4",
+    "operationId": "8F1E05D58DFE46F4",
+    "properties": {
+      "provisioningOperation": "Read",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-04-18T20:05:07.7830116Z",
+      "duration": "PT2.5408934S",
+      "trackingId": "2081c336-463f-4268-aea8-79d5f3862ad4",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/microsoft.insights/components/movie-meter",
+        "resourceType": "microsoft.insights/components",
+        "resourceName": "movie-meter",
+        "apiVersion": "2015-05-01"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Resources/deployments/Microsoft.Web-FunctionApp-Portal-f4031af8-9e2e/operations/C7742D9516822A23",
+    "operationId": "C7742D9516822A23",
+    "properties": {
+      "provisioningOperation": "Create",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-04-18T20:05:07.4861089Z",
+      "duration": "PT2.2439907S",
+      "trackingId": "dfbc6ad6-d0e8-4b97-982d-8e94be183620",
+      "statusCode": "OK",
+      "targetResource": {
+        "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/microsoft.insights/components/movie-meter",
+        "resourceType": "microsoft.insights/components",
+        "resourceName": "movie-meter"
+      }
+    }
+  },
+  {
+    "id": "/subscriptions/bd40f7c3-dcf4-4b89-962f-af1a4576f9c0/resourceGroups/TIVMOF-movie/providers/Microsoft.Resources/deployments/Microsoft.Web-FunctionApp-Portal-f4031af8-9e2e/operations/08584881361812184447",
+    "operationId": "08584881361812184447",
+    "properties": {
+      "provisioningOperation": "EvaluateDeploymentOutput",
+      "provisioningState": "Succeeded",
+      "timestamp": "2024-04-18T20:07:02.3351454Z",
+      "duration": "PT0.2985675S",
+      "trackingId": "12842c94-85ed-4d4a-a84e-faeceec7dd40",
+      "statusCode": "OK"
+    }
+  }
+]
